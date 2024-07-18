@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <main className=" bg-white px-7 py-5">
+    <main className=" bg-white lg:px-7 py-5">
       <Header/>
       <Hero/>
       <SectionValues/>
