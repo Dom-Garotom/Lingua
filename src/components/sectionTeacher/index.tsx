@@ -5,6 +5,7 @@ import ImageTeacherThree from "../../../public/Mask (2).png"
 import FlagItalian from "../../../public/flag-Italian.png"
 import FlagISpanish from "../../../public/flag-Spanish.png"
 import FlagUk from "../../../public/flag-UK.png"
+import TitleDefault from "../titleDefault";
 
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
@@ -14,10 +15,12 @@ export default function SectionTeacher() {
   return (
     <div className="flex  flex-col items-center gap-14  my-20">
       <div className="flex w-[1240px] justify-between">
-        <div>
-          <span className="text-gray-400 font-semibold">KEY PERSON</span>
-          <h2 className=" text-gray-950 font-light text-6xl">Meet out teachers</h2>
-        </div>
+
+        <TitleDefault
+          title="Meet out teachers"
+          subTitle="KEY PERSON"
+        />
+
 
         <div className=" flex gap-5">
           <button className="flex items-center rounded-full w-20 h-20 p-5 bg-white  border-2 border-slate-300 text-4xl text-slate-400">
