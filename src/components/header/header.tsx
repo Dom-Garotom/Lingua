@@ -41,7 +41,7 @@ function Header (){
 
     return(
         <>
-            <header className="flex justify-between items-center px-10 py-4" >
+            <header className="flex justify-between items-center px-10 py-4 bg-[#FFF5F1] rounded-t-3xl" >
                 <div>
                     <Image src={Logo} alt="Logo da empresa Lingua" />
                 </div>
@@ -51,7 +51,7 @@ function Header (){
                         <Link 
                             key={item.id} 
                             href={item.href}
-                            className="text-[#666680] text-xl font-normal"
+                            className="text-[#666680] text-xl font-normal hover:text-[#524FD5] hover:font-medium"
                         >
                             {item.link}
                         </Link>
