@@ -11,7 +11,7 @@ function CardValues( prop : cardValues ) {
     <div className="flex flex-col items-center gap-5">
       <Image src={prop.image} alt=""/>
       <span className="text-gray-950 font-medium">{prop.title}</span>
-      <p className="w-[289px] text-gray-600 font-light  text-center">{prop.content}</p>
+      <p className="md:w-[289px] w-[270px] text-gray-600 font-light  my-5 text-center">{prop.content}</p>
     </div>
   )
 }

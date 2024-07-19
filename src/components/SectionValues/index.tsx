@@ -16,7 +16,7 @@ function SectionValues() {
         <h2 className="text-5xl text-gray-950 font-light">Our Values</h2>
       </div>
 
-      <div className="flex flex-row items-center md:gap-22 lg:gap-[6.5rem] ">
+      <div className="flex flex-col md:flex-row items-center md:gap-22 lg:gap-[6.5rem] ">
         <CardValues
           title="Speaking clubs"
           content="In our school you will practice your speaking skills and just get a lot of positive emotions!"

@@ -10,16 +10,17 @@ import TitleDefault from "../titleDefault"
 
 function SectionTopStudant() {
     return (
-        <div className="flex flex-col  w-[80-vh] items-start px-44 gap-20 my-32 ">
+        <div className="flex flex-col  w-full items-start px-5 sm:px-36 md:px-5 gap-20 my-32 ">
 
             <TitleDefault
                 title="Our  Students Say"
                 subTitle="TOP STUDING"
             />
 
-            <div className="flex w-full  justify-between gap-10 ">
+            <div className="flex w-full md:flex-row flex-col  justify-between gap-10 ">
 
                 <Image
+                            className="aspect-auto md:w-[402px]"
 
                     alt=""
                     src={ImageStudent}
@@ -37,7 +38,7 @@ function SectionTopStudant() {
                         <span className="text-gray-500">B2 course student</span>
                     </div>
 
-                    <p className="text-gray-900 font-light text-2xl w-[600px]">
+                    <p className="text-gray-900 font-light text-2xl ">
                         There is no way I could have made the same progress learning Spanish without using Lingua. The best part is now learning Spanish has become one of my biggest hobbies.
                     </p>
 

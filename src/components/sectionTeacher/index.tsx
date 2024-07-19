@@ -13,8 +13,8 @@ import { IoIosArrowBack } from "react-icons/io";
 
 export default function SectionTeacher() {
   return (
-    <div className="flex  flex-col items-center gap-14  my-20">
-      <div className="flex w-[1240px] justify-between">
+    <div className="flex  flex-col items-center md:items-start gap-14  my-20">
+      <div className="flex md:w-full   justify-between  ">
 
         <TitleDefault
           title="Meet out teachers"
@@ -22,7 +22,7 @@ export default function SectionTeacher() {
         />
 
 
-        <div className=" flex gap-5">
+        <div className=" flex gap-5 hidden md:flex">
           <button className="flex items-center rounded-full w-20 h-20 p-5 bg-white  border-2 border-slate-300 text-4xl text-slate-400">
             <IoIosArrowBack />
           </button>
@@ -33,7 +33,7 @@ export default function SectionTeacher() {
       </div>
 
 
-      <div className="flex  flex-row  gap-14">
+      <div className="flex flex-col md:flex-row gap-14">
         <TeacherCard
           name="Christian Howard"
           content="Italian teacher"

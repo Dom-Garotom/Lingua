@@ -40,14 +40,14 @@ function SectionFaq() {
     ];
 
     return (
-        <div className="flex flex-col   items-start px-44 gap-20 my-32 ">
+        <div className="flex flex-col   items-center  gap-20 my-32 ">
 
             <TitleDefault
                 title="Common questions"
                 subTitle="MORE INFO"
             />
 
-            <div className="flex w-full flex-wrap  justify-between gap-10 ">
+            <div className="flex w-full flex-wrap items-center md:px-0  justify-between gap-10 ">
                 {
                     faqs.map( item => (
                         <FaqCard
