@@ -1,4 +1,4 @@
-<img src="/tumb-lingua.png" width="100%" alt="imagem ilustrativa do site da escola de inglês"/>
+<img src="./public/tumb-lingua.png" width="100%" alt="imagem ilustrativa do site da escola de inglês"/>
 
 # Site da Escola de Inglês - Lingua
 
